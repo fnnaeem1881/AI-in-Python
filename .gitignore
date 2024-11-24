@@ -1,0 +1,38 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.db
+
+# Ignore virtual environment folder (for example, if using `venv`)
+venv/
+*.egg-info/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs directory and log files
+logs/
+
+# Ignore model and vectorizer files
+model.pkl
+vectorizer.pkl
+label_encoder.pkl
+
+# Ignore environment configuration files (API keys, etc.)
+config.py
+
+# Ignore any temporary files or editor-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore dependencies
+*.log
